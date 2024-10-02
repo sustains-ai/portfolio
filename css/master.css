@@ -524,4 +524,42 @@ footer p {
     box-shadow: 0 8px 16px rgba(0, 255, 204, 0.4);
 }
 
+/* Mobile phones (up to 600px wide) */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px; /* Reduce the size of the main heading */
+    }
+
+    .about-container {
+        flex-direction: column; /* Stack the about section vertically */
+        align-items: center;
+    }
+
+    .skills-container {
+        flex-direction: column; /* Stack skills vertically */
+        gap: 15px;
+    }
+
+    #projects ul {
+        flex-direction: column; /* Stack projects vertically */
+    }
+
+    #projects ul li {
+        width: 100%; /* Make project cards take full width */
+        margin-bottom: 20px; /* Add space between projects */
+    }
+
+    img {
+        width: 100%; /* Make images scale to the full width of the screen */
+        height: auto;
+    }
+
+    p {
+        font-size: 14px; /* Smaller text for readability on mobile */
+    }
+}
 
