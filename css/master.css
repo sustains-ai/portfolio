@@ -1,0 +1,527 @@
+/* Basic reset for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:  hsla(0, 0%, 0%, 0.858); /* Black background */
+    color: #620505; /* Light grey body text for readability */
+}
+
+/* Heading styles */
+h1 {
+    color: #f2f1f9; /* White color for the main heading (h1) */
+}
+
+h2 {
+    color: #fdfdfc; /* White color for subheadings (h2) */
+}
+
+h3 {
+    color: #f2ecf1; /* Green color for project titles (h3) */
+}
+
+
+/* good image */
+.good {
+    position: absolute; /* Makes the image float above the page */
+    top: 70px; /* Align vertically near the About Me section */
+    left: 600px; /* Adjust the position horizontally */
+    width: 1000px; /* Set width to 200px */
+    height: 600px; /* Set height to 250px */
+    opacity: 0.6; /* Slight transparency for subtle appearance */
+    z-index: -1; /* Ensure it stays behind the content */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect on coffee cup */
+.good:hover {
+    transform: rotate(10deg) scale(1.1); /* Adds rotation and scaling on hover */
+    opacity: 1; /* Fully visible when hovered */
+}
+
+/* good image */
+.nice {
+    position: absolute; /* Makes the image float above the page */
+    top: 1550px; /* Align vertically near the About Me section */
+    left: 30px; /* Adjust the position horizontally */
+    width: 1000px; /* Set width to 200px */
+    height: 600px; /* Set height to 250px */
+    opacity: 0.4; /* Slight transparency for subtle appearance */
+    z-index: -1; /* Ensure it stays behind the content */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect on coffee cup */
+.nice:hover {
+    transform: rotate(10deg) scale(1.1); /* Adds rotation and scaling on hover */
+    opacity: 1; /* Fully visible when hovered */
+}
+
+/* good image */
+.chaos {
+    position: absolute; /* Makes the image float above the page */
+    top: 2700px; /* Align vertically near the About Me section */
+    left: 400px; /* Adjust the position horizontally */
+    width: 1000px; /* Set width to 200px */
+    height: 600px; /* Set height to 250px */
+    opacity: 0.6; /* Slight transparency for subtle appearance */
+    z-index: -1; /* Ensure it stays behind the content */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect on coffee cup */
+.nice:hover {
+    transform: rotate(10deg) scale(1.1); /* Adds rotation and scaling on hover */
+    opacity: 1; /* Fully visible when hovered */
+}
+
+.Energy {
+    position: absolute; /* Makes the image float above the page */
+    top: 3400px; /* Align vertically near the About Me section */
+    left: 40px; /* Adjust the position horizontally */
+    width: 1600px; /* Set width to 200px */
+    height: 1100px; /* Set height to 250px */
+    opacity: 0.6; /* Slight transparency for subtle appearance */
+    z-index: -1; /* Ensure it stays behind the content */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect on coffee cup */
+.nice:hover {
+    transform: rotate(10deg) scale(1.1); /* Adds rotation and scaling on hover */
+    opacity: 1; /* Fully visible when hovered */
+}
+
+
+
+
+
+
+
+/* About Container for Flexbox */
+.about-container {
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    padding: 20px; /* Add padding for spacing */
+    max-width: 1200px; /* You can adjust the width */
+    margin: 0 auto; /* Center the container on the page */
+}
+
+/* About Me section styling */
+#about {
+    background-color: #181f1ac7; /* Light green background */
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0;
+    max-width: 700px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(5, 71, 35, 0.5);
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    position: relative;  /* Enable relative positioning */
+    left: -30px;  /* Move the section 50px to the left */
+}
+
+/* Text and hover animation for the About section */
+#about p {
+    font-size: 16px;
+    color: #cadbd1; /* White text for high contrast */
+    transition: color 0.5s ease;
+}
+
+/* Animation to make the About Me section more interactive */
+#about:hover {
+    background-color: #204634; /* Slightly lighter grey on hover for contrast */
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+/* Adding animation when scrolling into view */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#about {
+    animation: fadeIn 1s ease-in-out; /* Fade in effect on page load */
+}
+
+
+
+
+
+
+
+
+/* Project section styling */
+#projects {
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 2000px;
+}
+
+/* Project items container */
+#projects ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual project card */
+#projects ul li {
+    background-color: #68cc89c7; /* Dark grey card background for contrast */
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    perspective: 1000px;
+    position: relative;
+}
+
+#projects ul li h3 {
+    font-size: 18px;
+    color: #ecf2ec; /* Bright green for project titles */
+}
+
+#projects ul li p {
+    font-size: 14px;
+    color: #c8e2be; /* White text inside the cards for readability */
+}
+
+/* Shake animation */
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* Trigger shake on click */
+#projects ul li:active {
+    animation: shake 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+/* Adding a simple hover color change to title */
+#projects ul li:hover h3 {
+    color: #eef82d; /* Orange color for hover effect */
+}
+
+
+/* Technical Skills Section */
+#languages {
+    text-align: center;
+    padding: 50px;
+    background-color: #1a1c1b;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Individual Skill Styling */
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(199, 193, 43, 0.2);
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #68cc89c7;
+}
+
+#contact p {
+    font-size: 16px;
+    color: #ffffff; /* Change this to your preferred color */
+}
+
+#contact a {
+    color: #68cc89c7; /* Change the link color to a different color if needed */
+}
+
+footer p {
+    font-size: 14px;
+    color: #ffffff; /* Change this to your preferred color */
+}
+
+
+/* Technical Skills Section */
+#languages {
+    text-align: center;
+    padding: 50px;
+    background-color: #302e2e00;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Individual Skill Styling */
+.skill {
+    text-align: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.skill img {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(199, 193, 43, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Enlarge on Hover */
+.skill:hover img {
+    transform: scale(1.1); /* Enlarge image */
+    box-shadow: 0 6px 20px rgba(199, 193, 43, 0.4); /* Larger shadow */
+}
+
+/* Enlarge even more on Click */
+.skill:active img {
+    transform: scale(1.2); /* Further enlarge when clicked */
+    box-shadow: 0 8px 24px rgba(199, 193, 43, 0.6); /* Deeper shadow */
+}
+
+/* Reset back to normal when pointer moves away */
+.skill img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #68cc89c7;
+}
+
+
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+    text-align: center;
+    background-color: #1c1c1c2b; /* Dark background for contrast */
+    color: #ffffff; /* White text */
+}
+
+#skills h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #68cc89c7; /* Bright teal color for the heading */
+}
+
+/* Skill Container */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Individual Skill Items */
+.skill-item {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on skills */
+.skill-item:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7); /* Deeper shadow on hover */
+}
+
+/* Education Section */
+#education {
+    padding: 50px;
+    background-color: #21212116; /* Dark background */
+    color: #ffffff; /* White text */
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 28px;
+    color: #68cc89c7; /* Teal for the heading */
+    margin-bottom: 30px;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.education-item {
+    background-color: #3c3b3b; /* Dark grey background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.education-item h3 {
+    font-size: 22px;
+    color: #68cc89c7; /* Teal for the degree name */
+}
+
+.education-item p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Publications Section */
+#publications {
+    padding: 50px;
+    background-color: #1c1c1c39;
+    color: #ffffff;
+    text-align: left;
+    max-width: 1200px; /* Limit the width for better readability */
+    margin: auto; /* Center the section */
+}
+
+#publications h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #68cc89c7; /* Teal color for the heading */
+    text-align: center; /* Center the heading */
+    letter-spacing: 2px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Fade in animation for the heading */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.publications-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Grid layout for responsiveness */
+    gap: 20px;
+    animation: slideUp 1.5s ease-in-out;
+}
+
+/* Slide up animation for the publications */
+@keyframes slideUp {
+    0% { opacity: 0; transform: translateY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.publication-item {
+    background-color: #333; /* Dark grey background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    text-align: left;
+    opacity: 0.95;
+}
+
+.publication-item:hover {
+    transform: scale(1.05); /* Zoom in on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+    background-color: #444; /* Slight color change on hover */
+}
+
+/* Publication title styling */
+.publication-item h3 {
+    font-size: 22px;
+    color: #68cc89c7;
+    margin-bottom: 10px;
+    animation: popIn 0.8s ease-in-out;
+}
+
+/* Simple pop-in effect for titles */
+@keyframes popIn {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.publication-item p {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+/* Resume Section */
+#resume {
+    padding: 50px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+#resume h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #68cc89c7; /* Teal color for the heading */
+}
+
+.resume-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Download Button Styling */
+.download-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #68cc89c7;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 255, 204, 0.2);
+}
+
+.download-button:hover {
+    background-color: #00cc99; /* Darker teal on hover */
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 255, 204, 0.4);
+}
+
+
