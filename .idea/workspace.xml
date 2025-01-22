@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f829e315-1809-457e-b79a-d711c82d6e87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/controller_coding.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/energy_risk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fuzzy_index.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/index_dev.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/robo_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/robo_advisor_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wealth_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wealth_management_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/css.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/fastapi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/figma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/financial-modeling.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/flask.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/html.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/julia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/matlab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/microsoft.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/python.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svg/sql.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Robo_advisor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/master.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737433936986</updated>
       <workItem from="1737433938036" duration="4883000" />
-      <workItem from="1737516678636" duration="5590000" />
+      <workItem from="1737516678636" duration="14827000" />
     </task>
     <servers />
   </component>

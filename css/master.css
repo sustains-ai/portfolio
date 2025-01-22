@@ -1,28 +1,28 @@
 /* Basic reset for the body */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #2d2d2d; /* Dark grey background */
-    color: #e4e4e4; /* Light grey body text for readability */
+    background-color:#283F3B ; /* Dark grey background */
+    color: #ffffff; /* Light grey body text for readability */
     margin: 0;
     padding: 0;
 }
 
 /* Heading styles */
 h1 {
-    color: #f7f7f7; /* Light color for the main heading */
+    color: #ffffff; /* Light color for the main heading */
     font-size: 2.5rem;
     text-transform: uppercase;
 }
 
 h2 {
-    color: #ffd700; /* Golden yellow for subheadings */
+    color: #ffffff; /* Golden yellow for subheadings */
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
 
 h3 {
-    color: #9ad6cb; /* Soft teal for project titles */
+    color: #ffffff; /* Soft teal for project titles */
     font-size: 1.5rem;
 }
 
@@ -102,27 +102,29 @@ h3 {
 
 /* Project section styling */
 /* Projects Section Styling */
+
+
+
 #projects {
     padding: 50px;
-    background-color: #2e2e2e; /* Darker background for contrast */
+    background-color: #283F3B; /* Main background color */
     color: #ffffff;
 }
 
 #projects h2 {
     font-size: 32px;
     margin-bottom: 30px;
-    color: #68cc89; /* Teal color for the heading */
+    color: #ffffff; /* White for the heading text */
     text-align: center;
     letter-spacing: 1px;
 }
 
 .project-item {
-    background-color: #4d4d4d; /* Dark grey background for project containers */
+    background-color: #556F44; /* Inner box background color */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
 
 .project-item:hover {
@@ -132,27 +134,30 @@ h3 {
 
 .project-item h3 {
     font-size: 20px;
-    color: #e6e6e6; /* Light color for titles */
+    color: #e6e6e6; /* Light gray for titles */
     margin-bottom: 10px;
 }
 
 .project-item p {
     font-size: 16px;
-    color: #cfcfcf;
+    color: #cfcfcf; /* Softer gray for descriptions */
 }
 
 .project-item img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; /* Slightly rounded corners for images */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for images */
     margin-bottom: 15px;
 }
+
+
+
 
 /* Skill section */
 #skills {
     padding: 50px;
-    background-color: #303030;
+    background-color: #ffffff;
     color: #ffffff;
 }
 
@@ -164,7 +169,7 @@ h3 {
 }
 
 .skill-item {
-    background-color: #424242;
+    background-color: #95BF74;
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
@@ -172,24 +177,24 @@ h3 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.skill-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
-}
+/*.skill-item:hover {*/
+/*    transform: translateY(-5px);*/
+/*    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);*/
+/*}*/
 
 /* Education section */
 #education {
     padding: 50px;
-    background-color: #3b3b3b;
+    background-color: #283F3B;
     color: #ffffff;
 }
 
 #education h2 {
-    color: #ffd700;
+    color: #ffffff;
 }
 
 .education-item {
-    background-color: #4e4e4e;
+    background-color: #659B5E;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -244,12 +249,12 @@ h3 {
 /* Publications section */
 #publications {
     padding: 50px;
-    background-color: #2f2f2f;
+    background-color: #283F3B;
     color: #d9d9d9;
 }
 
 .publication-item {
-    background-color: #595959;
+    background-color: #659B5E;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
@@ -257,13 +262,13 @@ h3 {
 }
 
 .publication-item:hover {
-    background-color: #767676;
+    background-color: #283F3B;
     transform: scale(1.02);
 }
 
 .publication-item h3 {
     font-size: 1.2rem;
-    color: #ffb700;
+    color: floralwhite;
 }
 
 .publication-item p {
@@ -271,55 +276,48 @@ h3 {
     margin: 5px 0;
 }
 
-/* Resume section */
+/* Resume Section */
 #resume {
     padding: 50px;
-    background-color: #2e2e2e;
-    color: #f7f7f7;
-    max-width: 800px;
-    margin: 50px auto;
-    border-radius: 8px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    background-color: #283F3B; /* Consistent background color */
+    color: #f7f7f7; /* Light text for contrast */
+    max-width: 800px; /* Keeps the section manageable */
+    margin: 50px auto; /* Centers the section */
+    border-radius: 8px; /* Smooth corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); /* Strong shadow for depth */
+    text-align: center; /* Centers content inside the section */
 }
 
+/* Download Button */
 .download-button {
-    padding: 15px 30px;
-    color: #ffffff;
-    background-color: #ffd700;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 15px 30px; /* Spacious padding for a prominent button */
+    color: #ffffff; /* White text for visibility */
+    background-color: #659B5E; /* Primary green color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Readable font size */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
 }
 
 .download-button:hover {
-    background-color: #e0ac00;
-    transform: translateY(-4px);
+    background-color: #558A54; /* Slightly darker green for hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow enhancement on hover */
+    transform: translateY(-4px); /* Adds lift effect */
 }
 
-/* Contact section */
-#contact p {
-    font-size: 1rem;
-    color: #d1d1d1;
+/* Responsive Design */
+@media (max-width: 768px) {
+    #resume {
+        padding: 30px;
+        max-width: 90%; /* Adjusts width for smaller screens */
+    }
+
+    .download-button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 10px 20px; /* Reduces padding */
+    }
 }
-
-#contact a {
-    color: #00aced;
-}
-
-footer p {
-    color: #cfcfcf;
-    font-size: 0.9rem;
-}
-
-footer {
-  background-color: #000; /* Ensures footer background matches your styling */
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  position: relative; /* Needed for child absolute positioning if required */
-}
-
-
 
 /* Responsive design for mobile */
 @media (max-width: 600px) {
@@ -460,4 +458,82 @@ footer {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+
+#site-footer {
+    background-color: #283F3B; /* Deep greenish background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px; /* Adds space inside the footer */
+    text-align: center; /* Centers all content */
+    border-top: 3px solid #659B5E; /* Optional: Green top border for separation */
+    font-size: 14px; /* Slightly smaller font for footer text */
+}
+
+#site-footer a {
+    color: #659B5E; /* Green links to match the theme */
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+#site-footer a:hover {
+    color: #e0ac00; /* Golden color on hover for links */
+}
+
+#site-footer .social-icons {
+    margin: 10px 0; /* Adds spacing around social icons */
+}
+
+#site-footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px; /* Spacing between icons */
+    color: #ffffff; /* White icons */
+    font-size: 18px; /* Adjust size of icons */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+#site-footer .social-icons a:hover {
+    color: #e0ac00; /* Golden hover color for social icons */
+    transform: scale(1.2); /* Slight scaling on hover */
+}
+
+
+/* Base Button Styling */
+.btn {
+    display: inline-block; /* Makes the button behave like an inline element */
+    font-size: 16px; /* Adjust text size */
+    font-weight: 600; /* Slightly bold text for emphasis */
+    text-align: center; /* Centers the text */
+    text-decoration: none; /* Removes underline from links */
+    padding: 12px 20px; /* Adds internal spacing */
+    border-radius: 8px; /* Smooth, rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover and click effects */
+    cursor: pointer; /* Pointer cursor for interactivity */
+}
+
+/* Primary Button Styling */
+.btn-primary {
+    background-color: #659B5E; /* Greenish background color */
+    color: #ffffff; /* White text for contrast */
+    border: 2px solid transparent; /* No visible border by default */
+}
+
+/* Hover Effect */
+.btn-primary:hover {
+    background-color: #4e7a49; /* Darker green for hover effect */
+    color: #ffffff; /* Keeps text white on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Active/Click Effect */
+.btn-primary:active {
+    transform: translateY(0); /* Reset lift effect on click */
+    background-color: #3b5f38; /* Even darker green for active state */
+}
+
+/* Focus Effect */
+.btn-primary:focus {
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 0 4px #659B5E; /* Green glow for accessibility focus */
 }
