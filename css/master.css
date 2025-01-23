@@ -732,3 +732,10 @@ body > *:not(canvas):not(.clouds-bg) {
     z-index: 10; /* Content appears above the animation */
 }
  Restrict Animation to Tech Stack Section
+
+ .custom-header {
+    text-align: center; /* Centers text horizontally */
+    background: linear-gradient(135deg, #283F3B, #659B5E); /* Custom gradient background */
+    color: white; /* Text color */
+    padding: 20px; /* Add some padding */
+}
