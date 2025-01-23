@@ -36,34 +36,58 @@ h3 {
 
 
 
-/* About Container styling */
+/*!* About Container styling *!*/
+/*.about-container {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center; */
+/*    padding: 30px; */
+/*    max-width: 90%; */
+/*    margin: 0 auto; */
+/*    align-items: center; animation: 2s gradient-angle infinite linear;*/
+/*    border: 2px solid transparent;*/
+/*    background-image: linear-gradient(#584827, #2d230f),*/
+/*    conic-gradient(*/
+/*      from var(--gradient-angle),*/
+/*      #584827 0%,*/
+/*      #c7a03c 37%,*/
+/*      #f9de90 30%,*/
+/*      #c7a03c 33%,*/
+/*      #584827 40%,*/
+/*      #584827 50%,*/
+/*      #c7a03c 77%,*/
+/*      #f9de90 80%,*/
+/*      #c7a03c 83%,*/
+/*      #584827 90%*/
+/*    );*/
+/*    background-clip: padding-box, border-box;*/
+/*     background-origin: padding-box, border-box;*/
+
+/*}*/
 .about-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; 
-    padding: 30px; 
-    max-width: 90%; 
-    margin: 0 auto; 
-    align-items: center; animation: 2s gradient-angle infinite linear;
+    justify-content: center;
+    padding: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    animation: 2s gradient-angle infinite linear;
     border: 2px solid transparent;
-    background-image: linear-gradient(#584827, #2d230f),
+    background-image: linear-gradient(#283F3B, #556F44),
     conic-gradient(
       from var(--gradient-angle),
-      #584827 0%,
-      #c7a03c 37%,
-      #f9de90 30%,
-      #c7a03c 33%,
-      #584827 40%,
-      #584827 50%,
-      #c7a03c 77%,
-      #f9de90 80%,
-      #c7a03c 83%,
-      #584827 90%
+      #283F3B 0%,
+      #556F44 25%,
+      #659B5E 50%,
+      #95BF74 75%,
+      #659B5E 90%,
+      #556F44 100%
     );
     background-clip: padding-box, border-box;
-     background-origin: padding-box, border-box;
-
+    background-origin: padding-box, border-box;
 }
 
 @keyframes gradient-angle {
@@ -537,3 +561,174 @@ h3 {
     outline: none; /* Removes default focus outline */
     box-shadow: 0 0 4px #659B5E; /* Green glow for accessibility focus */
 }
+
+
+
+
+
+/*!* Header Background Styling *!*/
+/*header {*/
+/*    background-color: #c7a03c; !* Updated background for consistency *!*/
+/*    padding: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*!* Gradient Text Styling *!*/
+/*.gradient-text {*/
+/*    font-size: 3rem; !* Adjust size as needed *!*/
+/*    font-weight: bold;*/
+/*    line-height: 1.2;*/
+/*    background: linear-gradient(*/
+/*        to right,*/
+/*        hsl(98, 100%, 62%),*/
+/*        hsl(204, 100%, 59%)*/
+/*    );*/
+/*    -webkit-background-clip: text; !* Clips the gradient to the text *!*/
+/*    -webkit-text-fill-color: transparent; !* Makes the text transparent *!*/
+/*    background-clip: text; !* Modern browsers *!*/
+/*    color: transparent; !* Ensures fallback *!*/
+/*    animation: gradient-animation 3s linear infinite alternate; !* Smooth gradient animation *!*/
+/*}*/
+
+/*!* Keyframes for Gradient Animation *!*/
+/*@keyframes gradient-animation {*/
+/*    0% {*/
+/*        background: linear-gradient(*/
+/*            to right,*/
+/*            hsl(98, 100%, 62%),*/
+/*            hsl(204, 100%, 59%)*/
+/*        );*/
+/*    }*/
+/*    100% {*/
+/*        background: linear-gradient(*/
+/*            to right,*/
+/*            hsl(210, 100%, 59%),*/
+/*            hsl(141, 100%, 59%)*/
+/*        );*/
+/*    }*/
+/*}*/
+/*body {*/
+/*	margin: 0;*/
+/*	padding: 0;*/
+/*	background-image: linear-gradient(to bottom, #00111a, #00334d, #005580);*/
+/*	background: url("https://hagall-media.de/cp/forest3.jpg") repeat-x;*/
+/*	background-position: center bottom;*/
+/*	background-size: cover;*/
+/*	overflow: hidden;*/
+/*	height: 100vh;*/
+/*	width: 100vw;*/
+/*	position: relative;*/
+/*}*/
+
+/*canvas {*/
+/*	position: absolute;*/
+/*	top: 0;*/
+/*	left: 0;*/
+/*	width: 100%;*/
+/*	height: 100%;*/
+/*}*/
+
+/*#snow-canvas-1 {*/
+/*	z-index: 6;*/
+/*}*/
+/*#snow-canvas-2 {*/
+/*	z-index: 5;*/
+/*}*/
+/*#snow-canvas-3 {*/
+/*	z-index: 4;*/
+/*}*/
+/*#snow-canvas-4 {*/
+/*	z-index: 3;*/
+/*}*/
+/*#snow-canvas-5 {*/
+/*	z-index: 2;*/
+/*}*/
+/*#snow-canvas-6 {*/
+/*	z-index: 1;*/
+/*}*/
+
+/*.clouds-bg {*/
+/*	width: 100vw;*/
+/*	height: 100vh;*/
+/*	z-index: 1;*/
+/*	background: url("https://hagall-media.de/cp/clouds.png") repeat-x;*/
+/*	background-size: cover;*/
+/*	animation: moveClouds 200s linear infinite;*/
+/*	backdrop-filter: saturate(200%);*/
+/*	mix-blend-mode: plus-lighter;*/
+/*}*/
+
+/*@keyframes moveClouds {*/
+/*	0% {*/
+/*		background-position: 0 0;*/
+/*	}*/
+/*	100% {*/
+/*		background-position: -2000px 0;*/
+/*	}*/
+/*}*/
+/* Canvas for Snow Animation */
+
+
+
+
+
+canvas {
+    position: fixed; /* Fix to viewport for full-page coverage */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow interaction with page content */
+    z-index: 1; /* Place below content but above the background */
+    opacity:.05;
+}
+
+#snow-canvas-1 {
+    z-index: 6;
+}
+#snow-canvas-2 {
+    z-index: 5;
+}
+#snow-canvas-3 {
+    z-index: 4;
+}
+#snow-canvas-4 {
+    z-index: 3;
+}
+#snow-canvas-5 {
+    z-index: 2;
+}
+#snow-canvas-6 {
+    z-index: 1;
+}
+
+/* Clouds Background */
+.clouds-bg {
+    position: fixed; /* Fix to viewport for full-page coverage */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0; /* Place below the snow layers */
+    background: url("https://hagall-media.de/cp/clouds.png") repeat-x;
+    background-size: cover;
+    animation: moveClouds 200s linear infinite;
+    opacity:.2;
+}
+
+/* Clouds Animation */
+@keyframes moveClouds {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -2000px 0;
+    }
+}
+
+/* Content Layer */
+body > *:not(canvas):not(.clouds-bg) {
+    position: relative;
+    z-index: 10; /* Content appears above the animation */
+}
+ Restrict Animation to Tech Stack Section
